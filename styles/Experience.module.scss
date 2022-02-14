@@ -1,0 +1,67 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 92vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+}
+
+.expContainer {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.skillsContainer {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+}
+
+.projectContainer {
+  flex: 1; /* fills the remaining part of the viewport below header */
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  background-color: #e2e2f7;
+  padding: 10px;
+  border-radius: 10px;
+  grid-gap: 10px;
+}
+
+.project {
+  padding: 10px;
+}
+
+.projectImage {
+  cursor: pointer;
+}
+
+.projectDescription {
+  margin-bottom: 10px;
+}
+
+.code {
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+}
+
+@media (max-width: 740px) {
+  .main {
+    margin-top: 35px;
+  }
+  .projectContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
