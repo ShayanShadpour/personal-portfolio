@@ -68,7 +68,7 @@ const Experience = () => {
               <div className={styles.projectDescription}>
                 <p>Tracks and displays historical ETH prices</p>
                 <p className={styles.code}>
-                  React - HTML - SCSS - JS - ChartJS - Axios
+                  React - HTML - SCSS - Redux - ChartJS - Axios
                 </p>
               </div>
             </div>

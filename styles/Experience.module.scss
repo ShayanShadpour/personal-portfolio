@@ -45,6 +45,10 @@
 
 .projectImage {
   cursor: pointer;
+
+  :hover{
+    opacity: 90%;
+  }
 }
 
 .projectDescription {
