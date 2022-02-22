@@ -2,7 +2,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.scss";
-import profile from "../public/images/profile.jpg";
+import profile from "../public/images/profile4.jpg";
 import Link from "next/link";
 
 export default function Home() {
