@@ -29,7 +29,7 @@ export default function Home() {
           I&apos;m an aspiring  and passionate front-end web developer from southern Canada.
         </p>
 
-        <div>
+        <div className={styles.btnContainer}>
           <a href="/files/ShayanShadpour_Resume.pdf" alt="alt text" target="_blank" rel="noopener noreferrer">          
           <button className={styles.custombtn}> 
             Resume

@@ -5,12 +5,17 @@
   border-top: 1px solid #cac8c8;
   justify-content: center;
   align-items: center;
-  margin-top: -100px;
+  margin-top: 0px;
+
 
   a {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+
+    :hover{
+      color: #0070f3;
+    }
   }
 }

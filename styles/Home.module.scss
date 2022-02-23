@@ -3,7 +3,7 @@
 }
 
 .main {
-  min-height: 92vh;
+  min-height: 76vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -31,6 +31,7 @@
   font-size: 4rem;
   padding-top: 10px;
 }
+
 
 .title,
 .description {
@@ -91,5 +92,12 @@
 @media (max-width: 740px) {
   .main {
     margin-top: 35px;
+  }
+}
+
+
+@media (max-width: 387px){
+  .btnContainer{
+    display:flex;
   }
 }

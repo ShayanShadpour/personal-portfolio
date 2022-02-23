@@ -3,7 +3,7 @@
   justify-content: space-between;
   border-bottom: 1px solid #cac8c8;
   width: 100%;
-  margin-bottom: -50px;
+  margin-bottom: 0px;
 }
 
 .name {
@@ -52,4 +52,16 @@
   .navbar {
     padding-top: 15px;
   }
+}
+
+
+@media(max-width: 405px){
+
+.navbar{
+  margin-top: 0;
+  display:block;
+  li{
+    display: block;
+  }
+}
 }
